@@ -3,22 +3,18 @@ package kalkulator;
 public class MeterConversion {
 
     double meterToCenti(double meter) {
-        double centi = meter * 100;
-        return centi;
+          return meter * 100;
     }
 
     double meterToMilli(double milli) {
-        double meter = milli * 1000;
-        return meter;
+           return milli * 1000;;
     }
 
     double centiToMeter(double centi) {
-        double meter = centi / 100;
-        return meter;
+           return centi / 100;
     }
 
     double milliToMeters(double milli) {
-        double meter = milli / 1000;
-        return meter;
+        return milli / 1000;
     }
 }
